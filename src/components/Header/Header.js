@@ -5,6 +5,12 @@ const Header = () => {
   const mymenus = (
     <>
       <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/billing">Billing</Link>
+      </li>
+      <li>
         <span>Paid Total: 0</span>
       </li>
       <li>
