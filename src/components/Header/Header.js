@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const mymenus = (
@@ -7,10 +8,10 @@ const Header = () => {
         <span>Paid Total: 0</span>
       </li>
       <li>
-        <a>
+        <Link to="/login">
           Login
           <i class="fa-solid fa-arrow-right-to-bracket"></i>
-        </a>
+        </Link>
       </li>
     </>
   );
